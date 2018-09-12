@@ -13,19 +13,19 @@ const getWeather = async () => {
   weatherDiv.appendChild(weatherContent)
 
   // show the image
-  // const getImage = function () {
-  //   let backgroundImage = document.querySelector('.myContainer')
-  //   if (data.weather[0].main == "Rain") {
-  //     backgroundImage.style.backgroundImage = "url(img/rain.png)"
-  //   } else if (data.weather[0].main == "Sun") {
-  //     backgroundImage.style.backgroundImage = "url(img/sun.png)"
-  //   } else if (data.weather[0].main == "Clouds") {
-  //     backgroundImage.style.backgroundImage = "url(img/clouds.png)"
-  //   } else {
-  //     backgroundImage.style.backgroundImage = "url(img/sun.png)"
-  //   }
-  // }
-  // getImage()
+  const getImage = function () {
+    let backgroundImage = document.querySelector('.myContainer')
+    if (data.weather[0].main == "Rain") {
+      backgroundImage.style.backgroundImage = "url(img/rain.png)"
+    } else if (data.weather[0].main == "Sun") {
+      backgroundImage.style.backgroundImage = "url(img/sun.png)"
+    } else if (data.weather[0].main == "Clouds") {
+      backgroundImage.style.backgroundImage = "url(img/clouds.png)"
+    } else {
+      backgroundImage.style.backgroundImage = "url(img/sun.png)"
+    }
+  }
+  getImage()
   
 }
 
