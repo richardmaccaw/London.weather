@@ -39,4 +39,3 @@ const getWeather = async () => {
 }
 
 getWeather()
-
