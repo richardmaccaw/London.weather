@@ -6,7 +6,7 @@
 
 <p>London.weather tells you in nice big ELI5 text what the weather is.<p/>
 
-<a href"https://londonweather.netlify.com/" alt="">
+<a href="https://londonweather.netlify.com/">Website</a>
 
 <img src="img/sunnysc.png" alt="">
 <img src="img/cloudysc.png" alt="">
