@@ -8,11 +8,11 @@
   vertical-align: baseline;
 }
 
-h1 {
+.hero h1 {
   text-align: center;
-  font-size: 10em;
   color: white;
   padding-top: 10%;
+  font-size: 7em;
 }
 
 .myContainer {
@@ -25,9 +25,9 @@ h1 {
   background-size: 15%;
 }
 
-
-.myContainer p {
+.nav {
   color: white;
-  padding-top: 3em;
-  padding-left: 3em;
+  padding-top: 30px;
+  padding-left: 30px;
 }
+
